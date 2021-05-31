@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+	
+<!-- 	<bean id="kor" class="hi_choi.spring.beans.HelloSpring5Bean03Kor" />
+	<bean id="eng" class="hi_choi.spring.beans.HelloSpring5Bean03Eng" />
+	<bean id="jpn" class="hi_choi.spring.beans.HelloSpring5Bean03Jpn" /> -->
+	
+	<!-- 특정 패키지에서 @Component 애노테이션이 붙은 클래스를 사용하도록 함-->
+	<context:component-scan base-package="hi_choi.spring.annotation"></context:component-scan>
+
+</beans>
