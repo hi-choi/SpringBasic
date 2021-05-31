@@ -26,7 +26,7 @@ import hi_choi.spring.beans.HelloSpring5Bean04Factory;
 
 // 실행원리
 // 예제에서 보듯 객체 생성시 new 연산자를 사용하지 않고
-// 스프링이 대신 객체를 생성하고 프로그램에서는
+// 스프링이 대신 객체를 생성하고
 // 프로그램에서는 DI를 통해 이것을 사용함
 
 // bean05.xml에 스프링 컨테이너가 미리 생성해두어야 할
